@@ -1,1 +1,0 @@
-# ghadams.github.io
