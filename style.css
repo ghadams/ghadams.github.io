@@ -1,72 +1,88 @@
-* {
-  margin: 0;
-  padding:0;
-}
 body {
-  background-color: rgba(50,50,50, 1);
+  background: rgb(138, 132, 132);
+  color: rgb(13, 14, 13);
+  font-family: Helvetica Neue, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-#intro {
-  background-color: rgba(102, 178, 255, 0.6);
-  height: 200px;
+header {
+  background: white;
+  background-image: url("pcb.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 400px;
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
-  font-size: 48px;
-  color: gold;
-  font-weight: bold;
-  font-family: sans-serif;
+header h1 {
+  font-size: 62px;
+  color: rgb(235, 239, 241);
   text-align: center;
-  height: auto;
-  padding-top: 85px;
+  margin: 0px;
+  padding-top: 150px;
+  text-shadow: 2px 2px black;
+
 }
 
-p1 {
-  font-size: 20px;
-  color: grey;
-  font-family: sans-serif;
+nav {
+  background-color: grey;
+  text-transform: uppercase;
+  margin-top: 150px;
+}
+
+nav ul  {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: rgb(25, 25, 26);
+}
+
+nav li {
+  display: inline-block;
+  margin: 10px 0 15px 20px;
+  text-align: center;
 }
 
 a {
   color: white;
   text-decoration: none;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-#topbar {
-  //padding: 15px;
-  background-color: grey;
-}
-
-#links  {
-  //padding: 35px;
-  background-color: orange;
-}
-
-#navstuff {
   padding: 10px;
-  background-color: green;
-  text-align: left;
+}
+
+a:hover {
+  background: grey;
+}
+
+section.middle {
+  margin: 35px 20% 0 20%;
+  padding: 10px 5% 0 5%;
+  background: rgb(245, 244, 244);
+  height: 500px;
+  border: 1px solid block;
+  box-shadow: black 0px 5px 25px 5px;
+}
+
+p1 {
+  font-size: 24px;
+  color: rgb(46, 46, 43);
   font-family: sans-serif;
 }
 
-#content {
-  margin-left: 10%;
-  margin-right: 10%;
-  background-color: white;
-  padding-top: 25px;
-  text-align: left;
-  font-size: 32px;
+h2 {
+  font-size: 34px;
+  padding: 5px 0 0 0;
 }
 
-.center-text {
-  padding-left: 5%;
-  padding-top: 20px;
-  display: block;
-}
-
-.category {
-  font-size: 42px;
-  text-align: center;
+div.boxes {
+  border: 2px solid black;
+  display: inline-block;
+  padding: 15px;
+  margin: 10px;
+  width: 20%;
+  font-size: 12px;
+  overflow-wrap: break-word;
+  text-transform: uppercase;
+  
 }
